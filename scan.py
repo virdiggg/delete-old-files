@@ -35,6 +35,5 @@ folders = [
     # '/home/upload_myessen/packing_sm',
 ]
 
-# folder_path = '/var/www/l-essential/html/assets'
 for folder in folders:
     scan_folder_for_old_files(folder)
